@@ -21,6 +21,7 @@ import com.sky.testmaterialdesign.collapsingtoolbar.CollapsingToolbarLayoutActiv
 import com.sky.testmaterialdesign.snackerbar.SnackerBarActivity;
 import com.sky.testmaterialdesign.tablayout.TabLayoutActivity;
 import com.sky.testmaterialdesign.textinputlayout.TextInputLayoutActivity;
+import com.sky.testmaterialdesign.transitions.TransitionsActivity;
 
 /**
  * 主页面
@@ -41,12 +42,14 @@ public class MainActivity extends BaseActivity
         "TextInputLayout（EditText特效）",
         "TabLayout（实现Tab选项卡）",
         "CollapsingToolbarLayout（CoordinatorLayout特效）",
+        "Transition（Activity跳转特效）"
     };
     Class classes[] = {
         SnackerBarActivity.class,
         TextInputLayoutActivity.class,
         TabLayoutActivity.class,
-        CollapsingToolbarLayoutActivity.class
+        CollapsingToolbarLayoutActivity.class,
+        TransitionsActivity.class
     };
 
     @Override

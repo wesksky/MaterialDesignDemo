@@ -10,6 +10,14 @@
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
 
+        <!-- 指定shared element transitions -->
+        <item name="android:windowSharedElementEnterTransition">
+            @transition/change_image_transform
+        </item>
+        <item name="android:windowSharedElementExitTransition">
+            @transition/change_image_transform
+        </item>
+
     </style>
 
     <!-- ToolBar菜单样式，设置后字体颜色、menu图标颜色为 @android:color/white -->
@@ -26,5 +34,4 @@
     <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
         <item name="tabIndicatorColor">#0000FF</item>
     </style>
-
 </resources>
